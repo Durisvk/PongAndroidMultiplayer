@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string name="enter_ip">Enter IP Address of Server : Port Name</string>
+    <string name="join_btn">JOIN</string>
+    <string name="tcp_protocol">TCP</string>
+    <string name="udp_protocol">UDP</string>
+    <string name="single_player">Single Player</string>
+</resources>

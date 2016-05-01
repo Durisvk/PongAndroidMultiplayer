@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffff">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_ip"
+        android:id="@+id/ip_address" />
+
+    <RadioGroup
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tcp_protocol"
+            android:id="@+id/tcp"
+            android:checked="true" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/udp"
+            android:text="@string/udp_protocol"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="139dp"
+        android:layout_height="113dp"
+        android:text="@string/join_btn"
+        android:id="@+id/join_btn"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/single_player"
+        android:id="@+id/single_player"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
